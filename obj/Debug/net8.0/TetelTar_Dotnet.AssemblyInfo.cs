@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TetelTar_Dotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27c4d7de85f32e91bfb91e943e9cd26f1d3c781")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b7cdd611d33ee9a7e88ed84273dfacde638d213")]
 [assembly: System.Reflection.AssemblyProductAttribute("TetelTar_Dotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TetelTar_Dotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,7 @@
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\TetelTar_Dotnet.exe
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\TetelTar_Dotnet.dll
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\TetelTar_Dotnet.deps.json
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\TetelTar_Dotnet.runtimeconfig.json
+C:\Users\okvik\Documents\Prog_Projects\Web\TetelTar_Dotnet\obj\Release\net8.0\PubTmp\Out\TetelTar_Dotnet.pdb
