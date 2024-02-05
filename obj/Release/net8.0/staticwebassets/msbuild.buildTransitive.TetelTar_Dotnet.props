@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TetelTar_Dotnet.props" />
+</Project>
