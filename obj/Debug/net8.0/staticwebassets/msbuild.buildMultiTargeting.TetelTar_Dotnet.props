@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TetelTar_Dotnet.props" />
+</Project>

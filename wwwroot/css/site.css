@@ -31,3 +31,84 @@ body {
     padding: 0;
     margin: 0;
 }
+
+h1{
+    padding-top: 40px;
+    font-size: 80px!important;
+    text-align: center;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    text-decoration: underline;
+    font-style: italic;
+}
+#evek{
+    text-align: center;
+}
+
+#searchBar{
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+    #searchBar input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+#searchBar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+    #searchBar button:hover {
+        background: #0b7dda;
+    }
+
+    #searchBar::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+#mainContent{
+    margin-right: 40px;
+}
+
+#output {
+    max-width: 60%;
+    aspect-ratio: 1/1.414;
+}
+
+footer{
+    text-align: right;
+    font-style: italic;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.row{
+    max-width: 100%;
+}
+
+#uploadBtn{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color:white;
+}

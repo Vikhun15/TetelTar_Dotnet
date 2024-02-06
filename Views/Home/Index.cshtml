@@ -2,14 +2,114 @@
     ViewData["Title"] = "Home Page";
 }
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+    function Upload(){
+        alert("Pillanatnyilag nem lehet fájlt feltölteni");
+    }
+</script>
+
 <!--
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
--->
 
 <h1 style="text-align:center;">T H E   C A T</h1>
 <div id="cat">
-
 </div>
+-->
+
+<header>
+    <div class="row">
+        <div id="searchBar" class="col-4">
+            <input type="text" placeholder="Keresés.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <h1 class="col-8">Tétel Tár</h1>
+    </div>
+</header>
+<hr />
+<main>
+
+    <div id="mainContent" class="row">
+        <div id="temakorok" class="col-3">
+            <div class="card">
+                <div class="card-header" id="tkheadingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tkcollapseOne" aria-expanded="false" aria-controls="evekcollapseOne">
+                            Irodalom
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="tkcollapseOne" class="collapse" aria-labelledby="tkheadingOne" data-parent="#temakorok">
+                    <div class="card-body">
+
+                        <div id="evek">
+                            <div class="card">
+                                <div class="card-header" id="evekheadingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#evekcollapseOne" aria-expanded="false" aria-controls="evekcollapseOne">
+                                            2021
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="evekcollapseOne" class="collapse" aria-labelledby="evekheadingOne" data-parent="#evek">
+                                    <div class="card-body">
+                                        test1
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="evekheadingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#evekcollapseTwo" aria-expanded="false" aria-controls="evekcollapseTwo">
+                                            2022
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="evekcollapseTwo" class="collapse" aria-labelledby="evekheadingTwo" data-parent="#evek">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="tkheadingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tkcollapseTwo" aria-expanded="false" aria-controls="tkcollapseTwo">
+                            Matematika
+                        </button>
+                    </h5>
+                </div>
+                <div id="tkcollapseTwo" class="collapse" aria-labelledby="tkheadingTwo" data-parent="#temakorok">
+                    <div class="card-body">
+                        //Placeholder
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="splitter" class="col-1"></div>
+        <iframe id="output" class="col-8"></iframe>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <button id="uploadBtn" onclick="Upload()">Upload</button>
+        </div>
+        <span class="col-2">Forrás: <span id="author"></span></span>
+        <p class="col-4">Jegyzetek:
+            <br />
+            <ul id="notes"></ul>
+        </p>
+    </div>
+</main>
+<footer>
+    <p>Powered by: Vikhun</p>
+</footer>
